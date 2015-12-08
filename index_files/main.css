@@ -215,6 +215,16 @@ a.quiet, .quiet a {
     margin: 0;
 }
 
+
+.inspiring-screenshot {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 900px)
+.inspiring-screenshot {
+    width: 33%;
+}
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 html {
     font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
